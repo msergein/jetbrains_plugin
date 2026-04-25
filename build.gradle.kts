@@ -67,7 +67,7 @@ intellijPlatform {
                 )
                 channels.set(listOf(ProductRelease.Channel.RELEASE))
                 sinceBuild.set("241")
-                untilBuild.set("253.*")
+                untilBuild.set("261.*")
             }
         }
     }
@@ -86,7 +86,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241")
-        untilBuild.set("253.*")
+        untilBuild.set("261.*")
     }
 
     signPlugin {
